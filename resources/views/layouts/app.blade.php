@@ -3,21 +3,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <title>{{ config('app.name', 'liteMail') }}</title>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&amp;display=swap" rel="stylesheet">
+    <link href="{{ url('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('assets/css/plugins.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('assets/css/authentication/form-1.css') }}" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <link rel="stylesheet" type="text/css" href="{{ url('assets/css/forms/theme-checkbox-radio.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('assets/css/forms/switches.css') }}">
 </head>
 <body>
     <div id="app">
@@ -77,4 +78,10 @@
         </main>
     </div>
 </body>
+    <!--Scripts -->
+    <script src="{{ url('assets/js/libs/jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ url('bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ url('bootstrap/js/bootstrap.min.js') }}"></script>
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+    <script src="{{ url('assets/js/authentication/form-1.js') }}"></script>
 </html>

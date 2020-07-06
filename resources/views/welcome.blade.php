@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from robust.bootlab.io/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Aug 2019 16:49:09 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="MartDevelopers">
 
   <title>Robust UI Kit</title>
 
-  <link href="dist/css/robust.css" rel="stylesheet">
+  <link href="{{ url('dist/css/robust.css') }}" rel="stylesheet">
 </head>
 <body>
 
   <nav class="navbar navbar-lg navbar-expand-lg navbar-transparant navbar-dark navbar-absolute w-100">
     <div class="container">
-      <a class="navbar-brand" href="index-2.html">Robust.</a>
+      <a class="navbar-brand" href="{{url('/') }}">liteMail</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index-2.html">Overview</a>
-          </li>
+    
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Pages
@@ -59,9 +55,21 @@
               <a class="dropdown-item" href="getting-started.html#changelog">Changelog</a>
             </div>
           </li>
-        </ul>
-        <a class="btn btn-outline-white" href="https://themes.getbootstrap.com/product/robust-ui-kit-dashboard-landing/" target="_blank">Purchase Now</a>
-      </div>
+		</ul>
+			@if (Route::has('login'))
+				<div class="top-right links">
+					@auth
+						<a class="btn btn-outline-white" href="{{ url('/home') }}">Home</a>
+					@else
+						<a class="btn btn-outline-white" href="{{ route('login') }}" >Login</a>
+
+						@if (Route::has('register'))
+							<a class="btn btn-outline-danger" href="{{ route('register') }}" >Register</a>
+						@endif
+					@endauth
+				</div>
+			@endif
+	    </div>
     </div>
   </nav>
 
@@ -438,7 +446,7 @@
     </div>
   </footer>
 
-  <script src="dist/js/bundle.js"></script>
+  <script src="{{ url('dist/js/bundle.js') }}"></script>
 </body>
 
 </html>

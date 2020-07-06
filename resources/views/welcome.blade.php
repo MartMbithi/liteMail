@@ -2554,20 +2554,20 @@
         <script src="{{ url('as/js/jquery.validation/jquery.validate.min.js') }}"></script>
         <script src="{{ url('as/js/jquery.easy-pie-chart/jquery.easypiechart.min.js') }}"></script>
         <script src="{{ url('as/js/jquery.gmap/jquery.gmap.min.js') }}"></script>
-        <script src="as/js/jquery.lazyload/jquery.lazyload.min.js"></script>
-        <script src="as/js/isotope/jquery.isotope.min.js"></script>
+        <script src="{{ url('as/js/jquery.lazyload/jquery.lazyload.min.js') }}"></script>
+        <script src="{{ url('as/js/isotope/jquery.isotope.min.js') }}"></script>
         <script src="{{ url('as/js/owl.carousel/owl.carousel.min.js') }}"></script>
         <script src="{{ url('as/js/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
         <script src="{{ url('as/js/vide/jquery.vide.min.js') }}"></script>
         <script src="{{ url('as/js/vivus/vivus.min.js') }}"></script>		
 		<!-- Theme Base, Components and Settings -->
-		<script src="{{ url('as/js/js/theme.js') }}"></script>
+		<script src="{{ url('as/js/theme.js') }}"></script>
 		
 		<!-- Current Page Vendor and Views -->
-        <script src="{{ url('as/js/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
-		<script src="{{ url ('as/js/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>		
+        <script src="{{ url('as/js/rs-plugin/jquery.themepunch.tools.min.js') }}"></script>
+		<script src="{{ url ('as/js/rs-plugin/jquery.themepunch.revolution.min.js') }}"></script>		
 		<!-- Theme Initialization Files -->
-		<script src="{{ url('as/js/js/theme.init.js') }}"></script>
+		<script src="{{ url('as/js/theme.init.js') }}"></script>
 
 
 	</body>

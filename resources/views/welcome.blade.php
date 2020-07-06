@@ -14,8 +14,8 @@
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="{{ url('img/apple-touch-icon.png')}}">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -24,31 +24,31 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7COpen+Sans:400,700,800" rel="stylesheet" type="text/css">
 
 		<!-- Vendor CSS -->
-        <link rel="stylesheet" href="{{ url('bootstrap/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ url('fontawesome-free/css/all.min.css') }}">
-        <link rel="stylesheet" href="{{ url(animate/animate.min.css') }}">
-        <link rel="stylesheet" href="{{ url('simple-line-icons/css/simple-line-icons.min.css') }}">
-        <link rel="stylesheet" href="{{ url('owl.carousel/assets/owl.carousel.min.css') }}">
-        <link rel="stylesheet" href="{{ url('owl.carousel/assets/owl.theme.default.min.css') }}">
-        <link rel="stylesheet" href="{{ url('magnific-popup/magnific-popup.min.css') }}"> 
+        <link rel="stylesheet" href="{{ url('as/css/bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url('as/css/fontawesome-free/css/all.min.css') }}">
+        <link rel="stylesheet" href="{{ url('as/css/animate/animate.min.css') }}">
+        <link rel="stylesheet" href="{{ url('as/css/simple-line-icons/css/simple-line-icons.min.css') }}">
+        <link rel="stylesheet" href="{{ url('as/css/owl.carousel/assets/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ url('as/css/owl.carousel/assets/owl.theme.default.min.css') }}">
+        <link rel="stylesheet" href="{{ url('as/css/magnific-popup/magnific-popup.min.css') }}"> 
 
 		<!-- Theme CSS -->
-		<link rel="stylesheet" href="{{ url('css/theme.css') }}">
-		<link rel="stylesheet" href="{{ url('css/theme-elements.css') }}">
-		<link rel="stylesheet" href="{{ url('css/theme-blog.css') }}">
-		<link rel="stylesheet" href="{{ url('css/theme-shop.css') }}">
+		<link rel="stylesheet" href="{{ url('as/css/theme.css') }}">
+		<link rel="stylesheet" href="{{ url('as/css/theme-elements.css') }}">
+		<link rel="stylesheet" href="{{ url('as/css/theme-blog.css') }}">
+		<link rel="stylesheet" href="{{ url('as/css/theme-shop.css') }}">
 		
 		<!-- Demo CSS -->
-		<link rel="stylesheet" href="{{ url('css/demos/demo-landing.css') }}">
+		<link rel="stylesheet" href="{{ url('as/css/demos/demo-landing.css') }}">
 
 		<!-- Skin CSS -->
-        <link rel="stylesheet" href="{{ url('css/skins/skin-landing.css' )}}">
+        <link rel="stylesheet" href="{{ url('as/css/skins/skin-landing.css' )}}">
 
 		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="{{ url('css/custom.css') }}">
+		<link rel="stylesheet" href="{{ url('as/css/custom.css') }}">
 
 		<!-- Head Libs -->
-		<script src="{{ url('vendor/modernizr/modernizr.min.js') }}"></script>
+		<script src="{{ url('as/css/vendor/modernizr/modernizr.min.js') }}"></script>
 
 	</head>
 	<body class="alternative-font-4 loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 100}">
@@ -2543,31 +2543,31 @@
 		</div>
 
 		<!-- Vendor -->
-        <script src="{{ url('jquery/jquery.min.js') }}"></script>
-        <script src="{{ url('jquery.appear/jquery.appear.min.js') }}"></script>
-        <script src="{{ url('jquery.easing/jquery.easing.min.js') }}"></script>
-        <script src="{{ url('jquery.cookie/jquery.cookie.min.js') }}"></script>
-        <script src="{{ url('style-switcher/style.switcher.js" id="styleSwitcherScript" data-base-path="" data-skin-src=""></script>
-        <script src="{{ url('popper/umd/popper.min.js') }}"></script>
-        <script src="{{ url('bootstrap/js/bootstrap.min.js') }}"></script>
-        <script src="{{ url('common/common.min.js') }}"></script>
-        <script src="{{ url('jquery.validation/jquery.validate.min.js') }}"></script>
-        <script src="{{ url('jquery.easy-pie-chart/jquery.easypiechart.min.js') }}"></script>
-        <script src="{{ url('jquery.gmap/jquery.gmap.min.js') }}"></script>
-        <script src="{{ url('jquery.lazyload/jquery.lazyload.min.js') }}"></script>
-        <script src="{{ url('isotope/jquery.isotope.min.js' }}"></script>
-        <script src="{{ url('owl.carousel/owl.carousel.min.js') }}"></script>
-        <script src="{{ url('magnific-popup/jquery.magnific-popup.min.js') }}"></script>
-        <script src="{{ url('vide/jquery.vide.min.js') }}"></script>
-        <script src="{{ url('vivus/vivus.min.js') }}"></script>		
+        <script src="{{ url('as/js/jquery/jquery.min.js') }}"></script>
+        <script src="{{ url('as/js/jquery.appear/jquery.appear.min.js') }}"></script>
+        <script src="{{ url('as/js/jquery.easing/jquery.easing.min.js') }}"></script>
+        <script src="{{ url('as/js/jquery.cookie/jquery.cookie.min.js') }}"></script>
+        <script src="{{ url('as/js/style-switcher/style.switcher.js') }}" id="styleSwitcherScript" data-base-path="" data-skin-src=""></script>
+        <script src="{{ url('as/js/popper/umd/popper.min.js') }}"></script>
+        <script src="{{ url('as/js/bootstrap/js/bootstrap.min.js') }}"></script>
+        <script src="{{ url('as/js/common/common.min.js') }}"></script>
+        <script src="{{ url('as/js/jquery.validation/jquery.validate.min.js') }}"></script>
+        <script src="{{ url('as/js/jquery.easy-pie-chart/jquery.easypiechart.min.js') }}"></script>
+        <script src="{{ url('as/js/jquery.gmap/jquery.gmap.min.js') }}"></script>
+        <script src="as/js/jquery.lazyload/jquery.lazyload.min.js"></script>
+        <script src="as/js/isotope/jquery.isotope.min.js"></script>
+        <script src="{{ url('as/js/owl.carousel/owl.carousel.min.js') }}"></script>
+        <script src="{{ url('as/js/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+        <script src="{{ url('as/js/vide/jquery.vide.min.js') }}"></script>
+        <script src="{{ url('as/js/vivus/vivus.min.js') }}"></script>		
 		<!-- Theme Base, Components and Settings -->
-		<script src="{{ url('js/theme.js') }}"></script>
+		<script src="{{ url('as/js/js/theme.js') }}"></script>
 		
 		<!-- Current Page Vendor and Views -->
-        <script src="{{ url('rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
-		<script src="{{ url 'rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>		
+        <script src="{{ url('as/js/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
+		<script src="{{ url ('as/js/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>		
 		<!-- Theme Initialization Files -->
-		<script src="{{ url('js/theme.init.js') }}"></script>
+		<script src="{{ url('as/js/js/theme.init.js') }}"></script>
 
 
 	</body>

@@ -1,27 +1,29 @@
 @extends('layouts.app')
 
 @section('content')
-<!--
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
+    <!--
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">{{ __('Dashboard') }}</div>
+
+                        <div class="card-body">
+                            @if (session('status'))
+                                <div class="alert alert-success" role="alert">
+                                    {{ session('status') }}
+                                </div>
+                            @endif
+
+                            {{ __('You are logged in!') }}
                         </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div> -->
-<div class="header-container">
+    -->
+    <div class="header-container">
         <header class="header navbar navbar-expand-sm">
 
             <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a>
@@ -221,8 +223,6 @@
             </ul>
         </header>
     </div>
-    <!--  END NAVBAR  -->
-
     <!--  BEGIN MAIN CONTAINER  -->
     <div class="main-container" id="container">
 

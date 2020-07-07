@@ -34,6 +34,10 @@
     <link href="{{ url('plugins/notification/snackbar/snackbar.min.css') }}" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="{{ url('plugins/editors/quill/quill.snow.css') }}">
     <link href="{{ url('as/css/apps/mailbox.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('as/css/users/user-profile.css') }}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{ url('plugins/dropify/dropify.min.css') }}">
+    <link href="{{ url('as/css/users/account-setting.css') }}" rel="stylesheet" type="text/css" />
+
 
 </head>
 <body>
@@ -120,4 +124,8 @@
     <script src="{{ url('plugins/sweetalerts/sweetalert2.min.js') }}"></script>
     <script src="{{ url('plugins/notification/snackbar/snackbar.min.js') }}"></script>
     <script src="{{ url('as/js/apps/custom-mailbox.js') }}"></script>
+    <script src="{{ url('plugins/dropify/dropify.min.js') }}"></script>
+    <script src="{{ url('plugins/blockui/jquery.blockUI.min.js') }}"></script>
+    <!-- <script src="plugins/tagInput/tags-input.js"></script> -->
+    <script src="{{ url('as/js/users/account-settings.js') }}"></script>
 </html>

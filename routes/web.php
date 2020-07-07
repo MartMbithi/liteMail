@@ -20,3 +20,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/profile', 'HomeController@profile')->name('profile');
+
+Route::get('/profile', function(){
+    return view('profile');
+});
+
+Route::get('/update_profile', function(){
+    return view('update_profile');
+});
+
+

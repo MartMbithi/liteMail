@@ -19,15 +19,21 @@
     <link href="{{ url('as/css/authentication/form-1.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ url('as/css/forms/theme-checkbox-radio.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ url('as/css/forms/switches.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ url('as/plugins/editors/quill/quill.snow.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ url('plugins/editors/quill/quill.snow.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ url('as/css/apps/mailbox.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ url('as/plugins/sweetalerts/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ url('as/plugins/sweetalerts/sweetalert.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ url('as/plugins/notification/snackbar/snackbar.min.css') }}" rel="stylesheet" type="text/css" />
-        
-    <!-- Scripts -->
-    <script src="{{ url('as/plugins/sweetalerts/promise-polyfill.js') }}"></script>
+    <link href="{{ url('plugins/sweetalerts/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('plugins/sweetalerts/sweetalert.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('plugins/notification/snackbar/snackbar.min.css') }}" rel="stylesheet" type="text/css" />
+    <script src="{{ url('plugins/sweetalerts/promise-polyfill.js') }}"></script>
     <script src="{{ asset('as/js/app.js') }}" defer></script>
+    <link rel="stylesheet" type="text/css" href="{{ url('plugins/editors/quill/quill.snow.css') }}">
+    <link href="{{ url('as/css/apps/mailbox.css') }}" rel="stylesheet" type="text/css" />
+    <script src="{{ url('plugins/sweetalerts/promise-polyfill.js') }}"></script>
+    <link href="{{ url('plugins/sweetalerts/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('plugins/sweetalerts/sweetalert.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('plugins/notification/snackbar/snackbar.min.css') }}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{ url('plugins/editors/quill/quill.snow.css') }}">
+    <link href="{{ url('as/css/apps/mailbox.css') }}" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -98,11 +104,11 @@
     <!-- ./ footer-->
 </body>
     <!--Scripts -->
-    <script src="{{ url('as//js/libs/jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ url('as/js/libs/jquery-3.1.1.min.js') }}"></script>
     <script src="{{ url('bootstrap/js/popper.min.js') }}"></script>
     <script src="{{ url('bootstrap/js/bootstrap.min.js') }}"></script>
-    <script src="{{ url('as//js/app.js') }}"></script>
-    
+    <script src="{{ url('plugins/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ url('as/js/app.js') }}"></script>
     <script>
         $(document).ready(function() {
             App.init();
@@ -110,8 +116,8 @@
     </script>
     <script src="{{ url('as/js/custom.js') }}"></script>
     <script src="{{ url('as/js/ie11fix/fn.fix-padStart.js') }}"></script>
-    <script src="{{ url('as/plugins/editors/quill/quill.js') }}"></script>
-    <script src="{{ url('as/plugins/sweetalerts/sweetalert2.min.js') }}"></script>
-    <script src="{{ url('as/plugins/notification/snackbar/snackbar.min.js') }}"></script>
+    <script src="{{ url('plugins/editors/quill/quill.js') }}"></script>
+    <script src="{{ url('plugins/sweetalerts/sweetalert2.min.js') }}"></script>
+    <script src="{{ url('plugins/notification/snackbar/snackbar.min.js') }}"></script>
     <script src="{{ url('as/js/apps/custom-mailbox.js') }}"></script>
 </html>
